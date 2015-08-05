@@ -1,7 +1,7 @@
 {
   "name": "Intranet-Seguros",
   "version": "0.0.2",
-  "private": true,
+  "private": false,
   "scripts": {
     "start": "pm2 start pm2.json"
   },
