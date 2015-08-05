@@ -1,15 +1,15 @@
 {
   "apps": [{
     "name" : "CLIENT",
-    "script" : "./src/app.js",
+    "script" : "C:/Users/adjimenez/app-ng-node/src/app.js",
     "port": "9898",
-    "watch": "./src",
-    "ignore_watch": ["./src/sass", "./src/public"],
+    "watch": "C:/Users/adjimenez/app-ng-node/src",
+    "ignore_watch": ["C:/Users/adjimenez/app-ng-node/src/sass", "C:/Users/adjimenez/app-ng-node/src/public"],
     "watch_options": {
       "usePolling": true,
-    "error_file": "./logs/app-error.log",
+    "error_file": "C:/Users/adjimenez/app-ng-node/logs/app-error.log",
     },
-    "out_file": "./logs/app-out.log",
+    "out_file": "C:/Users/adjimenez/app-ng-node/logs/app-out.log",
     "env": {
       "NODE_ENV": "development"
     }
