@@ -16,7 +16,7 @@ En su version 0.0.2
 > - Del lado del servidor con el modulo NodeJs y framework ExpressJs.
 
 
-#### <i class="icon-file"></i> Documentacion 
+#### <i class="icon-file"></i> Documentacion
 
 >  **Caracteristicas de Aplicacion**
 >  - Autenticacion de usuario con Active Directory de Windows Server LDPA
@@ -31,4 +31,4 @@ En su version 0.0.2
 
 > **Configuracion**
 > -GulpJS para realizar tareas : (Preprocesar [Sass,CoffeeScript], Compilar, Copiar, Eliminar archivos Temporales, Minificar, Ofuscar, Comprimir imagenes).
->- Pm2Js para incializar y monitorear el servidor node, y lo reinicia en caso de que este se bloquee, configurar el entorno de produccion , el entorno de release (terminado) y el entorno de desarrollo con archivo de configuracion YML 
+>- Pm2Js para incializar y monitorear el servidor node, y lo reinicia en caso de que este se bloquee, configurar el entorno de produccion , el entorno de release (terminado) y el entorno de desarrollo con archivo de configuracion YML
