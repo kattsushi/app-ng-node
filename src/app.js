@@ -28,8 +28,8 @@ app.use(cookieParser());
 var exphbs = require('express-handlebars');
 
 // Stylus setup
-var stylus = require('stylus');
-var nib = require('nib');
+var sass = require('node-sass');
+//var nib = require('nib');
 
 // Handlebars setup
 app.engine(config().views.engine, exphbs({

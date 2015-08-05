@@ -1,6 +1,6 @@
 {
-  "name": "StudioVictory",
-  "version": "0.0.1",
+  "name": "Intranet-Seguros",
+  "version": "0.0.2",
   "private": true,
   "scripts": {
     "start": "pm2 start pm2.json"
@@ -13,12 +13,12 @@
     "express-handlebars": "latest",
     "lodash": "latest",
     "morgan": "~1.5.1",
-    "stylus": "latest",
+    "node-sass": "latest",
     "nib": "latest",
     "js-yaml": "latest"
   },
   "devDependencies": {
     "bower": "latest",
-    "grunt": "latest"
+    "gulp": "latest"
   }
 }
