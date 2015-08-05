@@ -6,7 +6,7 @@
     "watch": "./src",
     "ignore_watch": ["./src/sass", "./src/public"],
     "watch_options": {
-      "usePolling": true
+      "usePolling": true,
     "error_file": "./logs/app-error.log",
     },
     "out_file": "./logs/app-out.log",
