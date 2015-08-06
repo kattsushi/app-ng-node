@@ -9,7 +9,7 @@ var app = express();
 
 // Loading Config
 var config = require('./lib/config');
-console.log('Configuration', config().views);
+//console.log('Configuration', config().views);
 
 // Body Parser
 var bodyParser = require('body-parser');
@@ -27,7 +27,7 @@ app.use(cookieParser());
 // Layout setup
 var exphbs = require('express-handlebars');
 
-// Stylus setup
+// Sass setup
 var sass = require('node-sass');
 //var nib = require('nib');
 
