@@ -77,6 +77,50 @@ app.use(function(err, req, res, next) {
   });
 });
 
+
+// try conection as400
+
+var Database = require('jt400');
+var database = new Database();
+
+var config = {
+  libpath: __dirname + '/config/lib/jt400.jar',
+  drivername: 'com.ibm.as400.access.AS400JDBCDriver',
+  url: 'jdbc:as400://mcbo.seguroscatatumbo.com/productest;user=webusr;password=webusr'
+};
+
+database.initialize(config);
+
+// SELECT statements must be run with execute()
+database.execute('SELECT cedrif FROM productest.lcpf20 where zoncob=0101');
+
+database.on('execute', function(error, results) {
+  if (error) {
+    console.log(error);
+  }
+  else {
+    console.log(results);
+  }
+});
+
+//INSERT and UPDATE statements must be run with executeUpdate()
+/*database.executeUpdate('INSERT INTO foo (bar) VALUES ("bar")');
+
+database.on('executeUpdate', function(error, rowCount) {
+  if (error) {
+    console.log(error);
+  }
+  else {
+    console.log(rowCount);
+  }
+});
+*/
+// end try conection
+
+
+
+
+
 // Export application or start the server
 if (!!module.parent) {
   module.exports = app;
